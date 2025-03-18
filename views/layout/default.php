@@ -17,7 +17,7 @@
       }
     </style>
 </head>
-<body data-bs-theme="dark" class="d-flex flex-column min-vh-100">
+<body data-bs-theme="gray-300" class="d-flex flex-column min-vh-100">
 <nav class="navbar navbar-expand-sm bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="/<?=WEBROOT2?>">
