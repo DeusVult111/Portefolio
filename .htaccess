@@ -12,4 +12,4 @@ RewriteEngine on
 # \ : signal une autorisation sur un caractere special
 # /controleur/action/noville/notype/param3/param4 ..etc
 
-RewriteRule ^([a-zA-Z0-9\-\_\/]+)$ /ProjetD/index.php?p=$1 [L]
+RewriteRule ^([a-zA-Z0-9\-\_\/]+)$ /Portefolio/index.php?p=$1 [L]
