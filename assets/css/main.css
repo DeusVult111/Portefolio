@@ -1044,11 +1044,11 @@ section,
   font-size: 18px;
 }
 
-.services .service-item .title a {
+.services .service-item .title {
   color: var(--heading-color);
 }
 
-.services .service-item .title a:hover {
+.services .service-item .title:hover {
   color: var(--accent-color);
 }
 
