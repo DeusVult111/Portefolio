@@ -1007,11 +1007,11 @@ section,
 /*--------------------------------------------------------------
 # savoir-faire Section
 --------------------------------------------------------------*/
-.savoir-faire .service-item {
+.savoir-faire .savoir-faire-item {
   position: relative;
 }
 
-.savoir-faire .service-item .icon {
+.savoir-faire .savoir-faire-item .icon {
   background: var(--accent-color);
   display: flex;
   align-items: center;
@@ -1024,35 +1024,35 @@ section,
   margin-right: 20px;
 }
 
-.savoir-faire .service-item .icon i {
+.savoir-faire .savoir-faire-item .icon i {
   color: var(--contrast-color);
   font-size: 24px;
   line-height: 0;
 }
 
-.savoir-faire .service-item:hover .icon {
+.savoir-faire .savoir-faire-item:hover .icon {
   background: var(--surface-color);
 }
 
-.savoir-faire .service-item:hover .icon i {
+.savoir-faire .savoir-faire-item:hover .icon i {
   color: var(--accent-color);
 }
 
-.savoir-faire .service-item .title {
+.savoir-faire .savoir-faire-item .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.savoir-faire .service-item .title {
+.savoir-faire .savoir-faire-item .title {
   color: var(--heading-color);
 }
 
-.savoir-faire .service-item .title:hover {
+.savoir-faire .savoir-faire-item .title:hover {
   color: var(--accent-color);
 }
 
-.savoir-faire .service-item .description {
+.savoir-faire .savoir-faire-item .description {
   line-height: 24px;
   font-size: 14px;
 }
@@ -1319,13 +1319,13 @@ section,
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
-.service-details .savoir-faire-list {
+.savoir-faire-details .savoir-faire-list {
   padding: 10px 30px;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   margin-bottom: 20px;
 }
 
-.service-details .savoir-faire-list a {
+.savoir-faire-details .savoir-faire-list a {
   display: block;
   line-height: 1;
   padding: 8px 0 8px 15px;
@@ -1335,47 +1335,47 @@ section,
   transition: 0.3s;
 }
 
-.service-details .savoir-faire-list a.active {
+.savoir-faire-details .savoir-faire-list a.active {
   color: var(--heading-color);
   font-weight: 700;
   border-color: var(--accent-color);
 }
 
-.service-details .savoir-faire-list a:hover {
+.savoir-faire-details .savoir-faire-list a:hover {
   border-color: var(--accent-color);
 }
 
-.service-details .savoir-faire-img {
+.savoir-faire-details .savoir-faire-img {
   margin-bottom: 20px;
 }
 
-.service-details h3 {
+.savoir-faire-details h3 {
   font-size: 26px;
   font-weight: 700;
 }
 
-.service-details h4 {
+.savoir-faire-details h4 {
   font-size: 20px;
   font-weight: 700;
 }
 
-.service-details p {
+.savoir-faire-details p {
   font-size: 15px;
 }
 
-.service-details ul {
+.savoir-faire-details ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.service-details ul li {
+.savoir-faire-details ul li {
   padding: 5px 0;
   display: flex;
   align-items: center;
 }
 
-.service-details ul i {
+.savoir-faire-details ul i {
   font-size: 20px;
   margin-right: 8px;
   color: var(--accent-color);
