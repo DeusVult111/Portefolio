@@ -540,9 +540,9 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# accueil Section
 --------------------------------------------------------------*/
-.hero {
+.accueil {
   width: 100%;
   min-height: 100vh;
   position: relative;
@@ -552,7 +552,7 @@ section,
   justify-content: center;
 }
 
-.hero img {
+.accueil img {
   position: absolute;
   inset: 0;
   display: block;
@@ -562,7 +562,7 @@ section,
   z-index: 1;
 }
 
-.hero:before {
+.accueil:before {
   content: "";
   background: color-mix(in srgb, var(--background-color), transparent 70%);
   position: absolute;
@@ -570,32 +570,32 @@ section,
   z-index: 2;
 }
 
-.hero .container {
+.accueil .container {
   position: relative;
   z-index: 3;
 }
 
-.hero h2 {
+.accueil h2 {
   margin: 0;
   font-size: 64px;
   font-weight: 700;
 }
 
-.hero p {
+.accueil p {
   margin: 5px 0 0 0;
   font-size: 26px;
 }
 
-.hero p span {
+.accueil p span {
   letter-spacing: 1px;
   border-bottom: 2px solid var(--accent-color);
 }
 
-.hero .social-links {
+.accueil .social-links {
   margin-top: 25px;
 }
 
-.hero .social-links a {
+.accueil .social-links a {
   font-size: 24px;
   display: inline-block;
   color: color-mix(in srgb, var(--default-color), transparent 50%);
@@ -604,51 +604,51 @@ section,
   transition: 0.3s;
 }
 
-.hero .social-links a:hover {
+.accueil .social-links a:hover {
   color: var(--accent-color);
 }
 
 @media (max-width: 768px) {
-  .hero h2 {
+  .accueil h2 {
     font-size: 32px;
   }
 
-  .hero p {
+  .accueil p {
     font-size: 20px;
   }
 }
 
 /*--------------------------------------------------------------
-# About Section
+# a_propos Section
 --------------------------------------------------------------*/
-.about .content h2 {
+.a_propos .content h2 {
   font-weight: 700;
   font-size: 24px;
 }
 
-.about .content ul {
+.a_propos .content ul {
   list-style: none;
   padding: 0;
 }
 
-.about .content ul li {
+.a_propos .content ul li {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
 }
 
-.about .content ul strong {
+.a_propos .content ul strong {
   margin-right: 10px;
 }
 
-.about .content ul i {
+.a_propos .content ul i {
   font-size: 16px;
   margin-right: 5px;
   color: var(--accent-color);
   line-height: 0;
 }
 
-.about .custom-accent-btn {
+.a_propos .custom-accent-btn {
   margin-right: 75px;
   margin-top: 53px;
   background-color: #73d0ff;
@@ -660,7 +660,7 @@ section,
   animation: border-blink 1s infinite;
 }
 
-.about .custom-accent-btn:hover {
+.a_propos .custom-accent-btn:hover {
   background-color: #b1e2fa ; /* Optionnel : pour un effet au survol */
 }
 
@@ -708,16 +708,16 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Skills Section
+# competences Section
 --------------------------------------------------------------*/
-.skills .progress {
+.competences .progress {
   height: 60px;
   display: block;
   background: none;
   border-radius: 0;
 }
 
-.skills .progress .skill {
+.competences .progress .skill {
   color: var(--heading-color);
   padding: 10px;
   margin: 0 0 6px 0;
@@ -727,37 +727,37 @@ section,
   font-family: var(--heading-font);
 }
 
-.skills .progress .skill .val {
+.competences .progress .skill .val {
   float: right;
   font-style: normal;
 }
 
-.skills .progress-bar-wrap {
+.competences .progress-bar-wrap {
   background: color-mix(in srgb, var(--default-color), transparent 90%);
   height: 10px;
 }
 
-.skills .progress-bar {
+.competences .progress-bar {
   width: 1px;
   height: 10px;
   transition: 0.9s;
   background-color: var(--accent-color);
 }
 
-.skills .carousel-inner {
+.competences .carousel-inner {
   width: 75px; /* Largeur des slides */
   margin: 0 auto; /* Centre les slides */
 }
 
-.skills .carousel-item img {
+.competences .carousel-item img {
   display: block;
   margin: 0 auto; /* Centre les images */
   width: 100%;
   height: auto;
 }
 
-.skills .logos::before, 
-.skills .logos::after {
+.competences .logos::before, 
+.competences .logos::after {
   content: '';
   width: 75px;
   height: 100%;
@@ -766,21 +766,21 @@ section,
   z-index: 2;
 }
 
-.skills .logos::before {
+.competences .logos::before {
   left: 0;
   background: linear-gradient(to left, rgba(255, 255, 255, 0), #F4FAFD);
 }
 
-.skills .logos::after {
+.competences .logos::after {
   right: 0;
   background: linear-gradient(to right, rgba(255, 255, 255, 0), #F4FAFD);
 }
 
-.skills .logos-slide {
+.competences .logos-slide {
   animation: 50s slide infinite linear;
 }
 
-.skills .logos-slide img {
+.competences .logos-slide img {
   height: 60px;
   margin: 0 50px;
 }
@@ -795,9 +795,9 @@ section,
   }
 }
 /*--------------------------------------------------------------
-# Resume Section
+# parcours Section
 --------------------------------------------------------------*/
-.resume .resume-title {
+.parcours .parcours-title {
   color: var(--heading-color);
   font-size: 26px;
   font-weight: 700;
@@ -805,14 +805,14 @@ section,
   margin-bottom: 20px;
 }
 
-.resume .resume-item {
+.parcours .parcours-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
   border-left: 2px solid var(--accent-color);
   position: relative;
 }
 
-.resume .resume-item h4 {
+.parcours .parcours-item h4 {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
@@ -821,7 +821,7 @@ section,
   margin-bottom: 10px;
 }
 
-.resume .resume-item h5 {
+.parcours .parcours-item h5 {
   font-size: 16px;
   padding: 5px 15px;
   display: inline-block;
@@ -829,19 +829,19 @@ section,
   margin-bottom: 10px;
 }
 
-.resume .resume-item ul {
+.parcours .parcours-item ul {
   padding-left: 20px;
 }
 
-.resume .resume-item ul li {
+.parcours .parcours-item ul li {
   padding-bottom: 10px;
 }
 
-.resume .resume-item:last-child {
+.parcours .parcours-item:last-child {
   padding-bottom: 0;
 }
 
-.resume .resume-item::before {
+.parcours .parcours-item::before {
   content: "";
   position: absolute;
   width: 16px;
@@ -1005,13 +1005,13 @@ section,
   border-radius: 15px;
 }
 /*--------------------------------------------------------------
-# Services Section
+# savoir-faire Section
 --------------------------------------------------------------*/
-.services .service-item {
+.savoir-faire .service-item {
   position: relative;
 }
 
-.services .service-item .icon {
+.savoir-faire .service-item .icon {
   background: var(--accent-color);
   display: flex;
   align-items: center;
@@ -1024,35 +1024,35 @@ section,
   margin-right: 20px;
 }
 
-.services .service-item .icon i {
+.savoir-faire .service-item .icon i {
   color: var(--contrast-color);
   font-size: 24px;
   line-height: 0;
 }
 
-.services .service-item:hover .icon {
+.savoir-faire .service-item:hover .icon {
   background: var(--surface-color);
 }
 
-.services .service-item:hover .icon i {
+.savoir-faire .service-item:hover .icon i {
   color: var(--accent-color);
 }
 
-.services .service-item .title {
+.savoir-faire .service-item .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.services .service-item .title {
+.savoir-faire .service-item .title {
   color: var(--heading-color);
 }
 
-.services .service-item .title:hover {
+.savoir-faire .service-item .title:hover {
   color: var(--accent-color);
 }
 
-.services .service-item .description {
+.savoir-faire .service-item .description {
   line-height: 24px;
   font-size: 14px;
 }
@@ -1319,13 +1319,13 @@ section,
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
-.service-details .services-list {
+.service-details .savoir-faire-list {
   padding: 10px 30px;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   margin-bottom: 20px;
 }
 
-.service-details .services-list a {
+.service-details .savoir-faire-list a {
   display: block;
   line-height: 1;
   padding: 8px 0 8px 15px;
@@ -1335,17 +1335,17 @@ section,
   transition: 0.3s;
 }
 
-.service-details .services-list a.active {
+.service-details .savoir-faire-list a.active {
   color: var(--heading-color);
   font-weight: 700;
   border-color: var(--accent-color);
 }
 
-.service-details .services-list a:hover {
+.service-details .savoir-faire-list a:hover {
   border-color: var(--accent-color);
 }
 
-.service-details .services-img {
+.service-details .savoir-faire-img {
   margin-bottom: 20px;
 }
 
