@@ -1045,12 +1045,12 @@ section,
 }
 
 .savoir-faire .savoir-faire-item .title {
-  color: var(--heading-color);
-}
-
-.savoir-faire .savoir-faire-item .title:hover {
   color: var(--accent-color);
 }
+
+/*.savoir-faire .savoir-faire-item .title:hover {
+  color: var(--accent-color);
+}*/
 
 .savoir-faire .savoir-faire-item .description {
   line-height: 24px;
